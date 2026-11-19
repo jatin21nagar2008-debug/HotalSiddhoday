@@ -1,0 +1,76 @@
+@import "tailwindcss";
+@source "./**/*.{js,ts,jsx,tsx}";
+@source "../index.html";
+
+@theme {
+  --color-gold-50: #fcf9f2;
+  --color-gold-100: #f7f0df;
+  --color-gold-200: #eee0bd;
+  --color-gold-300: #e2cc94;
+  --color-gold-400: #d4af37;
+  --color-gold-500: #c5a059;
+  --color-gold-600: #a88139;
+  --color-gold-700: #84612e;
+  --color-gold-800: #6c4e2a;
+  --color-gold-900: #593f25;
+
+  /* Royal Imperial Teal & Sapphire Palette (Matching Official Hotel Logo) */
+  --color-royal-950: #081820;
+  --color-royal-900: #0a1f28;
+  --color-royal-850: #0d2733;
+  --color-royal-800: #123342;
+  --color-royal-750: #184052;
+  --color-royal-700: #1f4f65;
+
+  --color-ivory: #faf8f5;
+  --color-ivory-100: #f4efe6;
+  --color-ivory-200: #e7dfcf;
+  --color-ivory-muted: #c8bead;
+
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-display: 'Cinzel', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background-color: #081820;
+  color: #faf8f5;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  selection-background-color: #d4af37;
+  selection-color: #081820;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #081820;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #184052;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Gold Gradient text helper */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f7f0df 0%, #d4af37 50%, #aa833e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 25px -5px rgba(212, 175, 55, 0.25);
+}
