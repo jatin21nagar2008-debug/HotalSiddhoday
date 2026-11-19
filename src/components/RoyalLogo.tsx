@@ -29,7 +29,7 @@ export const RoyalLogo: React.FC<RoyalLogoProps> = ({
         className="relative rounded-lg overflow-hidden border border-[#d4af37]/60 shadow-[0_0_15px_rgba(212,175,55,0.35)] transition-transform duration-500 hover:scale-105 shrink-0 bg-[#0e4b5b]"
       >
         <img 
-          src="/logo.png" 
+          src="./logo.png" 
           alt="Hotel Siddhoday Palace Official Logo" 
           className="w-full h-full object-cover"
         />

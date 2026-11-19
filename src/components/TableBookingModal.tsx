@@ -66,7 +66,7 @@ export const TableBookingModal: React.FC<TableBookingModalProps> = ({ isOpen, on
               <div className="mb-5">
                 <div className="relative h-28 rounded-lg overflow-hidden border border-[#d4af37]/30 mb-3 shadow-md">
                   <img
-                    src="/images/aaura-lounge-dining.jpg"
+                    src="./images/aaura-lounge-dining.jpg"
                     alt="Aaura Rooftop Dining"
                     className="w-full h-full object-cover"
                   />

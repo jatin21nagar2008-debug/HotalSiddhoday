@@ -101,28 +101,28 @@ export const HOTEL_CONFIG = {
     description: "Perched with panoramic vistas over Harda, Aaura Restaurant and Grill offers a premier open-air rooftop dining experience. Featuring private gazebo cabanas, a modern sun deck, and ambient starlit seating. Indulge in aromatic tandoori specialties, live sizzlers, and rich North Indian curries, along with dedicated 100% pure Vegetarian and authentic Jain cuisine prepared with absolute reverence and hygiene.",
     timings: "11:00 AM – 11:00 PM (Daily)",
     cuisineHighlights: ["Pure Vegetarian Delicacies", "Dedicated Jain Food Options", "Live Sizzlers & Grills", "Private Rooftop Cabanas", "Mocktails & Beverages"],
-    heroImage: "/images/aaura-rooftop-cabanas.jpg",
-    ambienceImage: "/images/aaura-lounge-dining.jpg",
+    heroImage: "./images/aaura-rooftop-cabanas.jpg",
+    ambienceImage: "./images/aaura-lounge-dining.jpg",
     foodImages: [
       {
         title: "Private Rooftop Cabanas",
         description: "Shaded red-roof huts with comfortable sofa seating on manicured turf",
-        image: "/images/aaura-rooftop-cabanas.jpg"
+        image: "./images/aaura-rooftop-cabanas.jpg"
       },
       {
         title: "Sunset Deck & High Stools",
         description: "Open-air wooden deck with glass canopy and panoramic city vistas",
-        image: "/images/aaura-sun-deck.jpg"
+        image: "./images/aaura-sun-deck.jpg"
       },
       {
         title: "Gazebo Chandelier Dining",
         description: "Intimate dining with royal curtains, warm lamps, and dedicated table service",
-        image: "/images/aaura-lounge-dining.jpg"
+        image: "./images/aaura-lounge-dining.jpg"
       },
       {
         title: "Starlit Rooftop Lawn & Grills",
         description: "Magical night ambiance illuminated by festive fairy lights and outdoor seating",
-        image: "/images/aaura-night-terrace.png"
+        image: "./images/aaura-night-terrace.png"
       }
     ]
   },
@@ -222,7 +222,7 @@ export const HOTEL_CONFIG = {
       description: "A spectacular open-air rooftop event venue under Harda's skies, featuring a beautifully decorated stage with an ornate backdrop, grand banquet buffet layout, and sweeping town views. Perfectly suited for wedding ring ceremonies, sangeet nights, birthday celebrations, and evening family parties.",
       capacity: "100 to 350+ Guests",
       idealFor: ["Ring Ceremonies & Sangeet", "Birthday & Anniversary Galas", "Sunset Cocktail & Buffet Evenings", "Family Reunions"],
-      image: "/images/banquet-rooftop-sunset.jpg",
+      image: "./images/banquet-rooftop-sunset.jpg",
       features: ["Authentic Ornate Celebration Stage Setup", "Full Buffet Dining & Live Food Counter Setup", "Scenic Sunset & Night Horizon Views", "Dedicated Acoustic & Lighting System"]
     },
     {
@@ -328,7 +328,7 @@ export const HOTEL_CONFIG = {
       title: "Hotel Siddhoday Palace Facade",
       category: "exterior",
       categoryLabel: "Exterior",
-      image: "/hotel-exterior.jpg",
+      image: "./hotel-exterior.jpg",
       description: "Official front elevation and glass facade on NH-59A Indore Road, Harda."
     },
     {
@@ -336,7 +336,7 @@ export const HOTEL_CONFIG = {
       title: "Palace Reception & Guest Lounge",
       category: "exterior",
       categoryLabel: "Lobby & Reception",
-      image: "/images/hotel-lobby-lounge.jpg",
+      image: "./images/hotel-lobby-lounge.jpg",
       description: "Spacious welcome foyer with plush seating, warm lighting, and 24/7 concierge."
     },
     {
@@ -344,7 +344,7 @@ export const HOTEL_CONFIG = {
       title: "Highway Elevation View",
       category: "exterior",
       categoryLabel: "Exterior",
-      image: "/hotel-exterior.jpg",
+      image: "./hotel-exterior.jpg",
       description: "Panoramic property view on Indore Road opposite Khatri Marriage Garden."
     },
     {
@@ -352,7 +352,7 @@ export const HOTEL_CONFIG = {
       title: "Aaura Rooftop Cabanas & Dining",
       category: "restaurant",
       categoryLabel: "Aaura Dining",
-      image: "/images/aaura-rooftop-cabanas.jpg",
+      image: "./images/aaura-rooftop-cabanas.jpg",
       description: "Open-sky rooftop illuminated with festive lighting, private gazebos, and starlit skies."
     },
     {
@@ -360,7 +360,7 @@ export const HOTEL_CONFIG = {
       title: "Private Gazebo Dining Cabanas",
       category: "restaurant",
       categoryLabel: "Aaura Dining",
-      image: "/images/aaura-rooftop-cabanas.jpg",
+      image: "./images/aaura-rooftop-cabanas.jpg",
       description: "Exclusive red-roof cabanas with sofa seating on artificial green grass."
     },
     {
@@ -368,7 +368,7 @@ export const HOTEL_CONFIG = {
       title: "Rooftop Wooden Sun Deck & Bar Counter",
       category: "restaurant",
       categoryLabel: "Aaura Dining",
-      image: "/images/aaura-sun-deck.jpg",
+      image: "./images/aaura-sun-deck.jpg",
       description: "Contemporary high-stool seating and glass canopy deck overlooking Harda."
     },
     {
@@ -376,7 +376,7 @@ export const HOTEL_CONFIG = {
       title: "Intimate Gazebo Dinner Lounge",
       category: "restaurant",
       categoryLabel: "Aaura Dining",
-      image: "/images/aaura-lounge-dining.jpg",
+      image: "./images/aaura-lounge-dining.jpg",
       description: "Chandelier-lit private gazebo with teal velvet seating and pure vegetarian dining."
     },
     {
@@ -384,7 +384,7 @@ export const HOTEL_CONFIG = {
       title: "Rooftop Celebration Stage & Buffet Setup",
       category: "banquets",
       categoryLabel: "Banquets & Events",
-      image: "/images/banquet-rooftop-sunset.jpg",
+      image: "./images/banquet-rooftop-sunset.jpg",
       description: "Golden sunset event lawn with ornate mandap backdrop and royal buffet line."
     },
     {

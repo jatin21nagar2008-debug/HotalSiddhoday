@@ -120,7 +120,7 @@ export const About: React.FC = () => {
             {/* Primary Main Image (Grand Architecture) */}
             <div className="relative rounded-lg overflow-hidden border border-[#d4af37]/35 shadow-[0_20px_50px_rgba(2,8,12,0.9)] aspect-[4/3] group bg-[#0d2733]">
               <img
-                src="/hotel-exterior.jpg"
+                src="./hotel-exterior.jpg"
                 alt="Hotel Siddhoday Palace Facade"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -139,7 +139,7 @@ export const About: React.FC = () => {
             {/* Overlapping Secondary Image (Verified Reception & Lounge) */}
             <div className="hidden sm:block absolute -bottom-8 -left-8 w-64 rounded-lg overflow-hidden border-2 border-[#d4af37]/60 shadow-[0_15px_35px_rgba(0,0,0,0.9)] aspect-[4/3] bg-[#0d2733] group">
               <img
-                src="/images/hotel-lobby-lounge.jpg"
+                src="./images/hotel-lobby-lounge.jpg"
                 alt="Hotel Siddhoday Palace Reception Lounge"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
