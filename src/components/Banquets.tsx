@@ -70,11 +70,10 @@ export const Banquets: React.FC = () => {
             <button
               key={venue.id}
               onClick={() => setActiveVenue(venue.id)}
-              className={`px-5 py-2.5 rounded-full text-xs font-serif tracking-[0.16em] uppercase transition-all duration-300 cursor-pointer ${
-                activeVenue === venue.id
+              className={`px-5 py-2.5 rounded-full text-xs font-serif tracking-[0.16em] uppercase transition-all duration-300 cursor-pointer ${activeVenue === venue.id
                   ? 'bg-gradient-to-r from-[#d4af37] to-[#c5a059] text-[#081820] font-bold shadow-[0_0_20px_rgba(212,175,55,0.4)]'
                   : 'bg-[#0d222e] text-[#faf8f5]/80 hover:text-[#d4af37] border border-white/10'
-              }`}
+                }`}
             >
               {venue.title}
             </button>
